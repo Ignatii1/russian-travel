@@ -1,6 +1,7 @@
 .header__lang-ru {
+  display: inline-block;
+  height: 53%;
   margin: 18px 18px 0 0;
-  text-decoration: underline;
   font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 24px;
