@@ -4,3 +4,16 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+  .place__link-box {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__link-box {
+    margin-bottom: 32px;
+  }
+}
+

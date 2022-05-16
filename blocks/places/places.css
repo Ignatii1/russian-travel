@@ -1,5 +1,23 @@
 .places {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 92px 100px 15px;
+  padding: 92px 148px 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 92px 48px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 92px 24px 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 64px 0px 17px;
+  }
 }

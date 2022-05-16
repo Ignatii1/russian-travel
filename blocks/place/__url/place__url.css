@@ -1,8 +1,21 @@
 .place__url {
+  margin: 0;
+  margin-bottom: 12px;
   color: #AAAAAA;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 2px;
   font-family: Inter, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .place__url {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__url {
+    padding: 0 16px;
+  }
 }

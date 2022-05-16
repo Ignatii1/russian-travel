@@ -4,3 +4,15 @@
   margin-bottom: 92px;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__statistics {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__statistics {
+    margin-bottom: 64px;
+  }
+}

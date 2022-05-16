@@ -1,4 +1,5 @@
 .place__link {
+  padding-bottom: 2px;
   color: #fff;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -11,4 +12,10 @@
 
 .place__link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    padding: 0 16px;
+  }
 }

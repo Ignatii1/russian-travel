@@ -7,5 +7,12 @@
   font-size: 14px;
   line-height: 114%;
   color: #fff;
-  align-self: center;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__author {
+    padding-top: 16px;
+    align-self: flex-start;
+  }
 }
