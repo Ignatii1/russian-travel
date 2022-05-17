@@ -1,5 +1,7 @@
-.header__lang-en {
-  margin: 18px 0 0;
+.header__lang {
+  display: inline-block;
+  height: 53%;
+  margin: 18px 18px 0 0;
   font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -7,7 +9,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .header__lang-en {
+  .header__lang {
     font-size: 18px;
     line-height: 111%;
   }
