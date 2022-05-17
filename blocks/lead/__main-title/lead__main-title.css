@@ -1,3 +1,5 @@
+*,*::before,*::after {outline: 1px solid red}
+
 .lead__main-title {
   margin: 56px auto 0;
   padding: 0;
@@ -22,8 +24,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 692px) {
   .lead__main-title {
+    max-width: 288px;
     font-size: 40px;
     line-height: 110%;
   }
