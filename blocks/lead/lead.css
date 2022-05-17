@@ -4,7 +4,7 @@
   padding: 0 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .lead {
     padding: 0;
   }
